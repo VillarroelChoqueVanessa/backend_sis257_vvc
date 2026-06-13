@@ -14,7 +14,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('API Rest Music - SIS257')
     .setDescription('API Rest para gestión de música de la materia SIS257')
-    .setVersion('1.0')
+    .setVersion('1.2')
     .addTag('artistas, generos, albumes, canciones')
     .addBearerAuth({ type: 'http', scheme: 'bearer', bearerFormat: 'JWT', in: 'header' })
     .build();
